@@ -1,0 +1,79 @@
+body {
+	font-size: 80%;
+	font-family: Arial, Verdana, sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 133%;
+}
+
+h3 {
+	font-size: 125%;
+}
+		
+ul#navigation {
+	list-style-type: none;
+	width: 625px;
+	padding: 15px;
+	text-align: center;
+	margin: 0px auto 0px;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	}
+
+p#content {
+	width: 600px;
+	margin: 10px auto 10px;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+
+li#navigation {
+	margin: 0px 3px 0px;
+	display: inline;
+	}
+	
+div#page {
+	width: 960px;
+	padding: 20px;
+	margin: 10px auto 10px;
+	border: 4px "double style" #000;
+
+	}
+	
+div#logo {
+	width: 303px;
+	margin: 10px auto 25px;
+	}
+	
+img#cafeFront {
+	float: left;
+	padding-right: 20px;
+	}
+	
+.column {
+	width: 280px;
+	float: left;
+	padding: 5px;
+	margin: 5px
+	overflow: auto;
+}
+
+.clear {
+	clear: left;
+}
