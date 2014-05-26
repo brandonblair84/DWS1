@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="logo">
+				<img src="images/logo.png" alt="Cafe Vincze" />
+			</div>
+			<ul id="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#" id="current-page">Contact</a></li>
+			</ul>
+			<div id="contact_content">
+				<h1>Contact</h1>
+				
+				<form action="http://www.example.com/form.php" method="get">
+				
+				<fieldset>
+				
+					<legend>Join our email list.</legend>
+				
+					<label class="title">Your name:
+					<input id="name" type="text" name="name" /></label><br />
+					<label class="title">Your email:
+					<input id="email" type="text" name="email" /></label>
+					<label class="title">Birthday Month:
+				
+					<select id="birthday" name="birthday">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					</select>
+				
+					<div id="submit">
+					<input type="submit" name="Register" value="Register" action="http://www.example.com/form.php"/>
+					</div>
+					
+				</fieldset>
+			
+				</form>
+				
+				
+				
+				
+			
+			</div><!-- /contact_content -->
+		</div><!-- /page -->
+	</body>
+</html>
