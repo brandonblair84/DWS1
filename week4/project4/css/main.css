@@ -1,0 +1,215 @@
+/*Main Styles*/
+
+body {
+	width: 960px;
+	margin: 10px auto;
+	background-color: #585858;
+	background: -webkit-linear-gradient(#585858,#808080);
+	background: linear-gradient(#585858,#808080);
+	opacity: 0.8;
+	color: #585858;
+	font-family: "Open Sans", sans-serif, serif;
+}
+
+div, section, header, footer {
+	margin: 25px auto;
+	padding: 5px 20px;
+}
+
+h1 {
+	background-image: url("../images/soccer_ball_pattern.png");
+	background-repeat: repeat-x;
+	background-position: center;
+	color: #FFFFFF;
+	font: bold 45px Roboto, sans-serif;
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	font: bold 25px Roboto, sans-serif;
+	text-shadow: 1px 1px #808080;
+	padding-left: 40px;
+	background-image: url("../images/soccer_ball.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+h3 {
+	font: bold 20px Roboto, sans-serif;
+	text-shadow: 1px 1px #808080;
+}
+
+h4 {
+	font: bold 15px Roboto, sans-serif;
+	text-shadow: 1px 1px #808080;
+}
+
+p {
+	line-height: 25px;
+}
+
+ul {
+	font: bold 15px Roboto, sans-serif;
+	list-style-type:square;
+}
+
+abbr {
+	font-style: italic;
+}
+
+footer {
+	padding: 10px 0px;
+	color: #d6d6d6;
+	text-align: center;
+}
+
+/*Container Layout*/
+
+div.container {
+	border-radius: 10px;
+	background: #ffffff;
+}
+
+/*Introduction Section*/
+
+section#introduction {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/*Table of Contents Navigation*/
+
+nav {
+	float: right;
+	width: 355px;
+	margin: 20px;
+	padding: 0px 20px;
+	border: 5px solid #585858;
+	border-radius: 10px;
+	height: 325px;
+}
+
+/*Table Styles*/
+
+table {
+	width: 700px;
+	border-spacing: 2px;
+}
+				
+th, td {
+	padding: 7px 10px 10px 10px;
+}
+			
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 110%;
+	border-top: 1px solid #585858;
+	border-bottom: 2px solid #585858;
+	text-align: left;
+}
+
+tr.even {
+	background-color: #ededed;
+}
+
+tr:hover {
+	background-color: #33CCCC;
+}
+
+/*Link Styles*/
+
+a:link {
+	color: #5CCCCC;
+}
+
+a:visited {
+	color: #006363;
+}
+
+a:hover {
+	color: #33CCCC;
+}
+
+a:active {
+	color: #009999;
+}
+
+a img {
+	border: 1px solid;
+	display: block;
+}
+
+/*Gallery Column Layout*/
+
+#galleryCol1, #galleryCol2, #galleryCol3 {
+	width: 290px;
+	float: left;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+section#gallery p {
+	clear: left;
+}
+
+/*Image Styles*/
+
+img {
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #808080;
+}
+
+figcaption {
+	font-size: 80%;
+}
+
+figcaption a {
+	display: inline-block;
+}
+
+/*Form Styles*/
+
+form {
+	padding: 20px 20px 50px 20px;
+	background-color: #ededed;
+	border-radius: 10px;
+}
+
+div.form {
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 575px;
+}
+
+.title {
+	float: left;
+	width: 225px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input:focus, textarea:focus {
+	background-color: #c1ebeb;
+}
+
+input.submit {
+	float: right;
+	font-size: 105%;
+	color: #585858;
+	border-bottom: 2px solid #808080;
+	border-radius: 3px;
+	background-color: #ededed;
+	background: -webkit-linear-gradient(#ededed, #ffffff);
+	background: linear-gradient(#ededed, #ffffff);
+}
+			
+input.submit:hover {
+	border-top: 2px solid #808080;
+	background-color: #ededed;
+	background: -webkit-linear-gradient(#ffffff, #ededed);
+	background: linear-gradient(#ffffff, #ededed);
+}
